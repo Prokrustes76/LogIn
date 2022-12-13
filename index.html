@@ -16,14 +16,34 @@
             <h3>The <em>Royal</em> Game</h3>
         </div>
         <div class="main flex flex1 column">
-            <div class="top flex flex1 column">
+            <div class="top flex  column">
                 <h2>Learn the <em>Game of Monarchs</em> and join!</h2>
                 <h3>Benefit from the variety of highly educative chess content put together by professional chess trainers from all over the world.</h3>
             </div>
-            <div class="middle flex1">
+            <div class="middle flex center">
+                <div class="left flex1 flex">
+                    <form action="/action_page.php" method="get" name="myForm">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="uname">User name:</label>
+                        <input type="text" id="uname" name="uname">
+                      </form>
+                </div>
+                <div class="right flex1 flex">
+                    <form action="/action_page.php" method="get" name="myForm">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="johnsnow@got.com">
+                        <label for="pword">Password:</label>
+                        <input type="password" id="pword" name="pword">
+                        <label for="pword2">Confirm:</label>
+                        <input type="password" id="pword2" name="pword2">
+                      </form>
 
+                </div>
             </div>
-            <div class="bottom flex1">
+            <div class="bottom">
 
             </div>
         </div>

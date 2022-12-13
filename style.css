@@ -8,6 +8,22 @@ body {
     background-color: #9c9c9c;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+input {
+    width: 90%;
+    font-size: .9em;
+    background-color: #bbb;
+    height: 1.5em;
+    text-align: center;
+}
+
+
 .container {
     flex: 1;
     height: 60%;
@@ -18,7 +34,6 @@ body {
 
 .container > div {
     border: 3px solid black;
-
 }
 
 .image {
@@ -45,16 +60,29 @@ em {
     text-align: center;
 }
 
+.allInputs {
+}
+
 .top {
     justify-content: space-evenly;
     line-height: 1.5em;
+    flex: 2;
 }
 
-.middle {
+.top > h3 {
+    padding: 1em;
+}
+
+.middle {   
+    flex: 1;
+}
+
+.middle > div {
+    justify-content: space-between;
 }
 
 .bottom {
-
+    flex: 2
 }
 
 
