@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #9c9c9c;
+}
+
+.container {
+    flex: 1;
+    height: 60%;
+    width: 80%;
+    max-width: 900px;
+    background: rgba(0, 0, 0, .4)
+}
+
+.container > div {
+    border: 3px solid black;
+
+}
+
+.image {
+    text-align: center;
+    font-size: clamp( 15px, 4.5vw, 50px);
+    background-image: url('chess.jpg') ;
+    background-size: cover;
+}
+
+.image > * {
+    margin: 20px 0 0 0;
+}
+
+em {
+    color: gold;
+    text-shadow: 
+    -1px 0 1px #c6bb9f, 
+    0 1px 1px #c6bb9f, 
+    5px 5px 10px rgba(0, 0, 0, 0.4),
+    -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.main {
+    text-align: center;
+}
+
+.top {
+    justify-content: space-evenly;
+    line-height: 1.5em;
+}
+
+.middle {
+}
+
+.bottom {
+
+}
+
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex1 {
+    flex: 1;
+}
